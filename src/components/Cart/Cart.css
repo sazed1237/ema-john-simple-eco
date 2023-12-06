@@ -9,7 +9,8 @@
     top: 0px;
 
 }
-.cart h4{
+
+.cart h4 {
     font-size: 25px;
 }
 
@@ -17,7 +18,43 @@
     font-size: 17px;
     letter-spacing: 0.085px;
 }
+
 .cart h6 {
     font-size: 21px;
     letter-spacing: 0.032px;
+}
+
+.btn-clear-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: #FF3030;
+    border-radius: 4px;
+    color: white;
+
+}
+.btn-review-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background: #F90;
+    border-radius: 4px;
+    color: white;
+
+}
+
+.btn-clear-delete-icon {
+    width: 24px;
+    height: 24px;
+    color: white;
 }
