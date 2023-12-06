@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart, faTrashAlt, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 
 
-const Cart = ({ cart, handleClearCart }) => {
+const Cart = ({ cart, handleClearCart, children }) => {
 
     // const cart = props.cart  //option no. 1
     // const {cart} = props     // option no. 2
@@ -37,10 +37,11 @@ const Cart = ({ cart, handleClearCart }) => {
                 <span>Clear Cart</span>
                 <FontAwesomeIcon className='btn-clear-delete-icon' icon={faTrashAlt} />
             </button>
-            <button className='btn-review-order'>
+            {children}
+            {/* <button className='btn-review-order'>
                 <span>Review Order</span>
                 <FontAwesomeIcon className='btn-clear-delete-icon' icon={faLongArrowAltRight} />
-            </button>
+            </button> */}
         </div>
     );
 };
