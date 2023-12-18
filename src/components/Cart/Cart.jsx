@@ -1,7 +1,7 @@
 import React from 'react';
 import './Cart.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShoppingCart, faTrashAlt, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
+import { faTrashAlt, faLongArrowAltRight, faSquareCheck } from '@fortawesome/free-solid-svg-icons'
 
 
 const Cart = ({ cart, handleClearCart, children }) => {

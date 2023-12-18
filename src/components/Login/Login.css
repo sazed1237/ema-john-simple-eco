@@ -1,0 +1,127 @@
+.form-container {
+    margin: 20px auto;
+    width: 500px;
+    height: 600px;
+    border-radius: 8px;
+    border: 1px solid #95A0A7;
+    box-shadow: -10px 10px 0px #FFE0B3;
+}
+
+.form-container form {
+    padding-left: 40px;
+}
+
+.form-container p {
+    color: #2A414F;
+    font-size: 15px;
+    letter-spacing: 0.038px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.form-container .link {
+    color: #F90;
+}
+
+.form-title {
+    color: #2A414F;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 0.088px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+
+}
+
+.form-control label {
+    display: block;
+    color: #2A414F;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.form-control input {
+    width: 415px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #95A0A7;
+    font-size: 1.4em;
+    padding-left: 10px;
+}
+
+.btn-submit {
+    width: 415px;
+    height: 55px;
+    border-radius: 5px;
+    background: rgba(255, 153, 0, 0.30);
+    border: none;
+    margin-top: 20px;
+    color: #0E161A;
+    font-size: 21px;
+
+}
+
+.btn-submit:hover {
+    background: rgba(255, 153, 0, 0.6);
+}
+
+.form-control p {
+    text-align: left;
+}
+
+.btn-show-hide-icon {
+    background-color: #F90;
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #95A0A7;
+}
+
+.separator hr {
+    height: 1px;
+    width: 145px;
+}
+
+.separator small {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+}
+
+.google-btn {
+    display: flex;
+    width: 415px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #95A0A7;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.google-btn p {
+    color: #2A414F;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+.btn-google-icon{
+    display: flex;
+    color: #F90;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+}
